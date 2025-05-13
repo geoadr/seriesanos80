@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Séries Anos 80</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #021320, #0e2c51);
+      color: #fff;
+    }
+
+    footer {
+      background: #ff6f00;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 3;
+    }
+
+    footer h1 {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 1.5rem;
+      margin: 0;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 140px auto 60px;
+      padding: 0 20px;
+    }
+
+    .card {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+      margin-bottom: 40px;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .card img {
+      width: 350px; /* Aumentado para sincronizar com o texto */
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ff69b4;
+      flex-shrink: 0;
+      align-self: stretch; /* Faz a imagem se esticar para a altura do texto */
+    }
+
+    .card-content {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .card h2 {
+      color: #ffcc00;
+      margin-top: 0;
+      font-size: 1.4rem;
+    }
+
+    .card p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #ddd;
+      text-align: justify;
+    }
+
+    .descricao {
+      margin-top: 15px;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-left: 4px solid #ff69b4;
+      color: #ffccff;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .card-content {
+        text-align: justify;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <footer>
+    <h1>Séries Anos 80</h1>
+  </footer>
+
+  <div class="container">
+
+    <div class="card">
+      <img src="img/capa.jpg" alt="Trovão Azul">
+      <div class="card-content">
+        <h2>Trovão Azul</h2>
+        <p>Baseado no filme homônimo estrelado por Roy Scheider, de Tubarão e Malcolm McDowell, o Alex DeLarge de Laranja Mecânica, o seriado Trovão Azul contou apenas com uma temporada, mesmo contando com um elemento de sucesso para programas da década: uma máquina de alta tecnologia e muito poder.<br><br>
+
+        No longa Frank Murphy (Scheider) é piloto de um helicóptero militar de última geração adaptado para o uso policial, com modernas armas de destruição, microfones e câmeras, modo de voo camuflado e outros acessórios.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/trovao.jpg" alt="Trovão Azul">
+      <div class="card-content">
+        <p>Murphy é um tira durão de Los Angeles e veterano da Guerra do Vietnã que acaba descobrindo seu antigo nemesis, Coronel Cochrane (MacDowell) envolvido numa trama política. O filme foi dirigido por John Badham (Alta Tensão) e recebeu indicação ao Oscar de melhor edição.<br><br>
+
+        No seriado, o piloto era o tenente Frank Chaney, que teve como parceiro o novato Clinton 'JAFO' Wonderlove. No apoio terrestre, os pilotos contavam com a ajuda do Capitão Braddock e o par Lyman 'Bubba' Kelsey e Richard 'Ski' Butowski.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/elenco4.jpg" alt="Trovão Azul Elenco">
+      <div class="card-content">
+        <div class="descricao">
+          * Temporadas: 1<br>
+          * Exibição: 1984<br>
+          * Episódios: 11
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
